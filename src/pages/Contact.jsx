@@ -1,6 +1,6 @@
 // src/pages/Contact.jsx
 import React from "react";
-import "../styles/contact.css"; // Link to the specific CSS for Contact page
+// import "../styles/contact.css"; // Link to the specific CSS for Contact page
 
 const Contact = () => {
   return (
