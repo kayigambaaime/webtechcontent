@@ -36,6 +36,8 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />,  // Correctly pointing to the Contact page component
   },
+
+ 
   {
     path: "/products",
     element: <Products />,

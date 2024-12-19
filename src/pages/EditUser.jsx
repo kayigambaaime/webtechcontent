@@ -210,7 +210,7 @@ const EditUser = () => {
   useEffect(() => {
     async function fetchUser() {
       try {
-        const response = await fetch(`http://localhost:9090/user?id=${id}`);
+        const response = await fetch(`https://webtechcontentbackend-production.up.railway.app/user?id=${id}`);
 
         // Check if the request was successful (status 200-299)
         if (!response.ok) {
@@ -242,7 +242,7 @@ const EditUser = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:9090/admin/users/update/${id}`,
+        `https://webtechcontentbackend-production.up.railway.app/admin/users/update/${id}`,
         {
           method: "PUT", // Use PUT for updating data
           headers: {

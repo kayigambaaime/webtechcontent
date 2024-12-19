@@ -138,7 +138,7 @@ const LoginBody = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:9090/login", {
+      const response = await fetch("https://webtechcontentbackend-production.up.railway.app/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

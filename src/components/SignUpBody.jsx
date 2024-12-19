@@ -27,7 +27,7 @@ const SignUpBody = () => {
     e.preventDefault();
     // Here you can handle the API call to submit the form data
     console.log("Form Data Submitted", formData);
-    const response = await fetch("http://localhost:9090/register", {
+    const response = await fetch("https://webtechcontentbackend-production.up.railway.app/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
